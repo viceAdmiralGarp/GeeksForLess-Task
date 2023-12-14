@@ -4,18 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fd52ed6-e5c7-4656-8669-d2ac96b9d6a3" name="Changes" comment="" />
+    <list default="true" id="1fd52ed6-e5c7-4656-8669-d2ac96b9d6a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/EquationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/RootsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/EquationEntityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/RootsEntityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/equation/Equation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/DaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rootsubstitution/SplitEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rootsubstitution/impl/SubstitutingRootInAnEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/validation/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dao/impl/EquationEntityDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/equation/EquationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rootsubstitution/impl/SubstitutingRootInAnEquationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/ConnectionManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/PropertiesUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/validation/ValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ZX0EA1IMgirmNOEd5N8gVXx7Hd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,17 +62,133 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.ConnectionManagerTest.executor": "Run",
+    "JUnit.DaoExceptionTest.executor": "Run",
+    "JUnit.EquationEntityDaoTest.executor": "Run",
+    "JUnit.EquationEntityDaoTest.testSaveAndDeleteEquation.executor": "Run",
+    "JUnit.EquationEntityDaoTest.testSaveAndDeleteEquationWithId.executor": "Run",
+    "JUnit.EquationTest.executor": "Run",
+    "JUnit.PropertiesUtilTest.executor": "Run",
+    "JUnit.RootsEntityDaoTest.executor": "Run",
+    "JUnit.SubstitutingRootInAnEquationTest.executor": "Run",
+    "JUnit.SubstitutingRootInAnEquationTest.testRootSubstitution.executor": "Run",
+    "JUnit.ValidationTest.executor": "Run",
+    "Maven.GeeksForLess_Task [clean].executor": "Run",
+    "Maven.GeeksForLess_Task [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/GeeksForLess_Task",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Василий/IdeaProjects/GeeksForLess_Task/src/main/java/Runner/Main.java",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Василий\IdeaProjects\GeeksForLess_Task\src\main\java" />
+      <recent name="C:\Users\Василий\IdeaProjects\GeeksForLess_Task\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RootsEntityDaoTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="GeeksForLess_Task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GeeksForLess_Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="util" />
+      <option name="MAIN_CLASS_NAME" value="util.ConnectionManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RootsEntityDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GeeksForLess_Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="dao.impl.RootsEntityDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RootsEntityDaoTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GeeksForLess_Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="dao.impl.RootsEntityDaoTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GeeksForLess_Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="validation" />
+      <option name="MAIN_CLASS_NAME" value="validation.ValidationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RootsEntityDaoTest" />
+        <item itemvalue="JUnit.RootsEntityDaoTest.testDelete" />
+        <item itemvalue="JUnit.ValidationTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ConnectionManagerTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-20.0.2-azul-20.0.2-3183f394aec4-4edb7f01" />
         <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
       </set>
     </attachedChunks>
@@ -47,7 +201,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702553013504</updated>
-      <workItem from="1702553013504" duration="30000" />
+      <workItem from="1702553013504" duration="17924000" />
+      <workItem from="1702571276469" duration="298000" />
+      <workItem from="1702576331401" duration="7949000" />
+      <workItem from="1702584576841" duration="5879000" />
+      <workItem from="1702590730609" duration="4141000" />
     </task>
     <servers />
   </component>

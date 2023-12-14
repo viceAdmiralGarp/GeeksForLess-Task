@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-233.11799.241">
+    <data-source name="GeeksForLess_task" uuid="6c4d13fa-0a8d-4e07-a822-bf56680ce2a1">
+      <database-info product="PostgreSQL" version="13.12" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="13.12" exact-driver-version="42.6">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>postgres</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="postgres">
+            <node kind="schema" qname="public" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>
